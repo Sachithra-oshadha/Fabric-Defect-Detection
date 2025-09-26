@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Hole', 'Snag', 'Stain']
+
+roboflow:
+  workspace: vindya-wsss4
+  project: 24_09_2025_research-xcb6g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vindya-wsss4/24_09_2025_research-xcb6g/dataset/1
